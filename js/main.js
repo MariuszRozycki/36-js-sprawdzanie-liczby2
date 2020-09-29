@@ -1,5 +1,5 @@
 function numbers(a, b) {
-  if ((a || b) === 20) {
+  if (a === 20 || b === 20) {
     console.log(`Zmienna a lub b jest rowna 20, true`);
     return true;
   } else if ((a + b) <= 20) {
@@ -10,4 +10,4 @@ function numbers(a, b) {
   };
 }
 
-numbers(50, 11);
+numbers(20, 20);
